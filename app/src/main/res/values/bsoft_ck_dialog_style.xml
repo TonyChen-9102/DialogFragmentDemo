@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:padding">0dp</item>
+        <!-- Define window properties as desired -->
+        <!--是否显示title-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否是全屏-->
+        <item name="android:windowFullscreen">false</item>
+        <!--背景颜色-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--点击空白是否消失-->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+</resources>
